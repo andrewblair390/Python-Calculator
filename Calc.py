@@ -69,6 +69,8 @@ button_left_par = tk.Button(window, text="(", command=lambda: add_to_calcstring(
 button_left_par.grid(row=5, column=2)
 button_right_par = tk.Button(window, text=")", command=lambda: add_to_calcstring(")"), width=5, font=("Arial", 14))
 button_right_par.grid(row=5, column=3)
+button_dec = tk.Button(window, text=".", command=lambda: add_to_calcstring("."), width=5, font=("Arial", 14))
+button_dec.grid(row=6, column=4)
 
 button_clear = tk.Button(window, text="Clear", command=clear_field, width=5, font=("Arial", 14))
 button_clear.grid(row=6, column=3)
