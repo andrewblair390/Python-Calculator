@@ -2,6 +2,7 @@ import tkinter as tk
 
 calculation = ""
 
+
 def add_to_calcstring(symbol):
     global calculation
     calculation += (str(symbol))
